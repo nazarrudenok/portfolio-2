@@ -1,4 +1,16 @@
 @media (max-width: 480px) {
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+    
+    ::-webkit-scrollbar-track {
+        background: #000000;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background: #ec9d02;
+    }
+    
     .main-info {
         flex-direction: column;
         margin-left: 30px;
